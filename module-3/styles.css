@@ -1,0 +1,91 @@
+/* Brady Heinz 8/30/26 3.2 Assignment */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    width: 70%;
+    max-width: 850px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #9b1c1c;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form label,
+.field-label {
+    font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.options,
+.checkboxes {
+    margin-bottom: 20px;
+}
+
+.options label,
+.checkboxes label {
+    font-weight: normal;
+    margin-right: 20px;
+}
+
+input[type="submit"],
+.button {
+    background-color: #9b1c1c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+.button:hover {
+    background-color: #741515;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+th,
+td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #9b1c1c;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
